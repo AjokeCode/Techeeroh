@@ -11,7 +11,7 @@ export const Header = () => {
     const pathname = usePathname()
     const getClassname = (path: string) => ` ${pathname === path ? "rgba(0, 30, 154, 1)" : "rgba(51, 51, 51, 0.7)"}` 
     return (
-        <div className="flex justify-between md:h-28 h-20 bg-transparent items-center md:px-16 px-8 text-base font-medium">
+        <div className="sticky top-0 z-20 flex justify-between md:h-28 h-20 bg-transparent backdrop-blur items-center md:px-16 px-8 text-base font-medium">
             <div className="flex gap-2 items-center">
                 <Image src={img1} alt="img" />
                 <h1 className="" style={{color: "rgba(7, 13, 37, 1)"}}>Techeeroh Academy</h1>

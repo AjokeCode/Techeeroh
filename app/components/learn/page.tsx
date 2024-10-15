@@ -3,7 +3,7 @@ import Link from "next/link"
 const Learn = () => {
     return (
         <div className="w-full flex flex-col items-center md:py-16 py-8 text-white">
-            <div className="md:w-5/6 w-11/12 flex flex-col items-center md:rounded-3xl rounded-xl justify-between md:py-10 py-5 gap-8" style={{backgroundColor: "rgba(4, 50, 223, 1)"}}>
+            <div className="w-5/6 flex flex-col items-center md:rounded-3xl rounded-xl justify-between md:py-10 py-5 gap-8" style={{backgroundColor: "rgba(4, 50, 223, 1)"}}>
                 <div className="flex flex-col md:gap-2 gap-1 items-center font-medium">
                 <h1 className="md:text-5xl text-2xl">Learn &amp; Memorize Qur&apos;an</h1>
                 <h2 className="text-base">Find the right plan for yourself</h2>
