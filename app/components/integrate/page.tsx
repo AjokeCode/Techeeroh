@@ -1,7 +1,6 @@
 import img1 from "./illustration.svg";
 import img2 from "./illustration (1).svg";
 import Image from "next/image";
-import img3 from "./div.circle-2.png"
 const Integrate = () => {
     return (
         <div className="flex flex-col md:px-16 px-8 gap-8 md:py-32 py-16 items-center">
