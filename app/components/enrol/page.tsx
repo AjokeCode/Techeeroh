@@ -1,4 +1,3 @@
-import Link from "next/link";
 import img1 from "./solar_round-arrow-left-linear (1).svg"
 import img2 from "../header/solar_round-arrow-left-linear.svg"
 import Image from "next/image";
