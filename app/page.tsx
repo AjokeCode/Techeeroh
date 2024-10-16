@@ -1,4 +1,6 @@
 import Becomeatechie from "./components/becomeatechie/page";
+import Enrol from "./components/enrol/page";
+import Footer from "./components/footer/page";
 import { Header } from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Integrate from "./components/integrate/page";
@@ -16,7 +18,9 @@ export default function Index() {
       <Learn/>
       <Becomeatechie />
       <Integrate />
-      <Review/>
+      <Review />
+      <Enrol />
+      <Footer/>
       </>
       )
       
